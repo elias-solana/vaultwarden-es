@@ -170,42 +170,6 @@
                 </dl>
             </div>
         </div>
-
-        <h3>Support</h3>
-        <div class="row">
-            <div class="col-md">
-                <dl class="row">
-                    <dd class="col-sm-12">
-                        If you need support please check the following links first before you create a new issue:
-                         <a href="https://vaultwarden.discourse.group/" target="_blank" rel="noreferrer noopener">Vaultwarden Forum</a>
-                         | <a href="https://github.com/dani-garcia/vaultwarden/discussions" target="_blank" rel="noreferrer noopener">Github Discussions</a>
-                    </dd>
-                </dl>
-                <dl class="row">
-                    <dd class="col-sm-12">
-                        You can use the button below to pre-generate a string which you can copy/paste on either the Forum or when Creating a new issue at Github.<br>
-                        We try to hide the most sensitive values from the generated support string by default, but please verify if there is nothing in there which you want to hide!<br>
-                    </dd>
-                </dl>
-                <dl class="row">
-                    <dt class="col-sm-3">
-                        <button type="button" id="gen-support" class="btn btn-primary">Generate Support String</button>
-                        <br><br>
-                        <button type="button" id="copy-support" class="btn btn-info mb-3 d-none">Copy To Clipboard</button>
-                        <div class="toast-container position-absolute float-start vw-copy-toast">
-                            <div id="toastClipboardCopy" class="toast fade hide" role="status" aria-live="polite" aria-atomic="true" data-bs-autohide="true" data-bs-delay="1500">
-                                <div class="toast-body">
-                                    Copied to clipboard!
-                                </div>
-                            </div>
-                        </div>
-                    </dt>
-                    <dd class="col-sm-9">
-                        <pre id="support-string" class="pre-scrollable d-none w-100 border p-2"></pre>
-                    </dd>
-                </dl>
-            </div>
-        </div>
     </div>
 </main>
 <script src="{{urlpath}}/vw_static/admin_diagnostics.js"></script>
